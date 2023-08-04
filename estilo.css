@@ -1,0 +1,251 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Rubik+Mono+One&family=Rubik+Wet+Paint&display=swap');
+
+/*
+font-family: 'Rubik', sans-serif;
+font-family: 'Rubik Mono One', sans-serif;
+font-family: 'Rubik Wet Paint', cursive;
+*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+.clicar {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.clicar:hover {
+    transform: scale(105%);
+}
+
+.cima {
+    transition: all 0.3s;
+    cursor: pointer;
+}
+
+.cima:hover {
+    transform: translateY(10px)
+}
+
+header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+    background-color: white;
+}
+
+.esquerda {
+    display: flex;
+    flex: row;
+    align-items: center;
+}
+
+.esquerda h2 {
+    font-size: 1.7em;
+    margin-right: 50px;
+    font-family: 'Rubik Mono One', sans-serif;
+    cursor: pointer;
+}
+
+.pesquisa {
+    color: #555555;
+    display: flex;
+    background-color: #DDDDDD;
+    width: 550px;
+    height: 35px;
+    border-radius: 20px;
+    align-items: center;
+    border: solid #111 3px;
+    box-shadow: 0px 4px 0px #111;
+    cursor: text;
+}
+
+.pesquisa img {
+    margin: 20px;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+}
+
+.direita {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.direita img {
+    height: 45px;
+    width: 45px;
+    cursor: pointer;
+}
+
+.banner {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/fotos-gratis/fundo-de-padrao-de-onda-abstrato-3d_53876-104422.jpg?w=826&t=st=1690986074~exp=1690986674~hmac=99667bfa6e2038df2b2d5d1a21fc8b59e6113f01b3b36b394f99d36a89323b20');
+    position: absolute;
+    right: 0;
+    left: 0;
+    display: flex;
+    margin-top: 75px;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    border-bottom: 30px solid #111;
+}
+
+.bloco1 {
+    background-color: #F2D630;
+    border: solid #d9d9d9 8px;
+    box-shadow: 0px 20px 0px #d9d9d9;
+}
+
+.bloco1.item-2 {
+    height: 330px;
+    width: 550px;
+    background-image: url('https://img.freepik.com/fotos-gratis/vista-superior-das-maos-de-mulheres-atraentes-desenhando-imagens-incriveis-na-tela-na-oficina-de-arte-moderna-e-aconchegante_574295-563.jpg?w=740&t=st=1690982331~exp=1690982931~hmac=e3593c17f22d764a28d24c84cd370a573e4bddfd394ab391671079443a20ebc3');
+    background-position: bottom;
+}
+
+.bloco1.item-1 {
+    width: 325px;
+    height: 255px;
+    background-image: url('https://img.freepik.com/fotos-gratis/pintor-senior-de-tiro-medio-dentro-de-casa_23-2150182556.jpg?w=740&t=st=1690982463~exp=1690983063~hmac=a8e45accdffb847317e8c10e6838f4a8a76c65623d153a56655a73e8d29e3daa');
+    background-size: cover;
+}
+
+.bloco1.item-3 {
+    width: 325px;
+    height: 255px;
+    background-image: url('https://img.freepik.com/fotos-gratis/belas-colinas-e-ceus_181624-577.jpg?w=360&t=st=1690982913~exp=1690983513~hmac=9e5aa3ab49e2bbc51214db5fc08c2bd1192f597a942dbaef53486e5a6ffc1e4e');
+    background-position: bottom;
+    background-size: 100%;
+}
+
+.faixa {
+    position: absolute;
+    margin-top: 555px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 70px;
+}
+
+.bloco2 {
+    width: 520px;
+    height: 275px;
+    border-radius: 65px;
+    border: 8px solid #111;
+    background: #F22929;
+    box-shadow: 20px 20px 0px 0px #111;
+    display: flex;
+    align-items: flex-end;
+    padding: 30px;
+    color: white;
+    font-size: 2em;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.bloco2.item-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/fotos-gratis/processo-de-pintura-de-pecas-de-arte-em-madeira_23-2148271008.jpg?w=740&t=st=1690986888~exp=1690987488~hmac=bf27560286ca4c4da21a3215ad6297b141b0fd6b96330ec0c76d3c8d29f60a8f');
+    background-position: center;
+    background-size: 100%;
+}
+
+.bloco2.item-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url('https://img.freepik.com/fotos-gratis/close-up-de-um-mulher-fazendo-a-artesanal-pulseira-com-corrente-e-contas_23-2148137483.jpg?w=740&t=st=1690987217~exp=1690987817~hmac=a7c10434f2f79f74d62df65bba597702b7ff72b7f668566f089b1afc906a8e7d');
+    background-position: baseline;
+    background-size: 100%;
+
+}
+
+.sobre {
+    position: absolute;
+    left: 0;
+    right: 0;
+    background-color: #F255BC;
+    margin-top: 940px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 70px;
+    align-items: center;
+    border-bottom: 30px solid #111;
+}
+
+.sobre .texto {
+    width: 500px;
+}
+
+.sobre h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 2em;
+    margin-bottom: 20px;
+
+}
+
+.sobre p {
+    line-height: 1.8;
+    font-size: 1.1em;
+}
+
+.bola {
+    width: 315px;
+    height: 315px;
+    border-radius: 100%;
+    background-color: #D9D9D9;
+    margin-right: 50px;
+    border: solid #111 8px;
+    box-shadow: 15px 15px 0px #111;
+}
+
+footer {
+    background-color: #111;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin-top: 1405px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+
+}
+
+footer img {
+    height: 30px;
+    width: 30px;
+    filter: invert(100%);
+    margin-right: 10px;
+}
+
+footer .redes {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+footer .rede {
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
