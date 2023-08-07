@@ -43,6 +43,11 @@ header {
     background-color: white;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
 .esquerda {
     display: flex;
     flex: row;
@@ -209,6 +214,32 @@ header {
     margin-right: 50px;
     border: solid #111 8px;
     box-shadow: 15px 15px 0px #111;
+}
+
+#banner1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("imagens/vista-superior-da-textura-do-tecido.jpg");
+    height: 275px;
+    color: white;
+    position: absolute;
+    margin-top: 75px;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    border-bottom: solid black 20px;
+}
+
+#banner1 h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    width: 900px;
+    margin-bottom: 40px;
+}
+
+#banner1 p {
+    width: 700px;
+
 }
 
 footer {
