@@ -239,7 +239,190 @@ a {
 
 #banner1 p {
     width: 700px;
+}
 
+#blogmain {
+    position: absolute;
+    margin-top: 400px;
+    margin-left: 5%;
+    margin-right: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#art-blog {
+    width: 60%;
+    height: 1350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#art-blog p {
+    text-align: justify;
+}
+
+#img1 {
+    background-image: url('imagens/pessoas-de-forca-reuniao-de-sucesso-das-maos.png');
+    width: 100%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+#parte1 {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 2;
+}
+
+#art-blog h2 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#parte2 {
+    height: 500px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 2;
+}
+
+#img2, #img3 {
+    width: 48%;
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+#img2 {
+    background-image: url('imagens/inteligente.png');
+}
+
+#img3 {
+    background-image: url('imagens/silhueta-de-familia-feliz-na-sunset.jpg');
+}
+
+#imagens {
+    display: flex;
+    justify-content: space-between;
+}
+
+#parte3 {
+    height: 250px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    line-height: 2;
+    margin-bottom: 20px;
+}
+
+#comentarios {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.comentario {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.perfil {
+    width: 50px;
+    height: 50px;
+    border-radius: 85px;
+    background-size: cover;
+    background-position: center;
+}
+
+#comentario1 .perfil {
+    background-image: url('imagens/mulher-de-cabelo-preto-bonita-alegre-em-pe-no-parque-da-cidade-e-sorrindo-senhora-aproveitando-o-tempo-de-lazer-ao-ar-livre-no-verao-close-vista-frontal-conceito-de-retrato-feminino.jpg');
+}
+
+#comentario1 .selecionar .coracao {
+    background-image: url('imagens/coracao\ vazio.png');
+}
+
+#comentario2 .perfil {
+    background-image: url('imagens/retrato-de-homem-branco-isolado.jpg');
+}
+
+#comentario2 .selecionar .coracao {
+    background-image: url('imagens/coracao\ cheio.png');
+}
+
+#comentario3 {
+    margin-left: 70px;
+}
+
+#comentario3 .perfil {
+    background-image: url('imagens/jovem-mulher-como-mona-lisa-la-gioconda-isolada-em-verde-escuro.jpg');
+    background-size: 200%;
+    background-position: 77px -9px;
+}
+
+#comentario3 .selecionar .coracao {
+    background-image: url('imagens/coracao\ vazio.png');
+}
+
+.selecionar {
+    display: flex;
+    flex-direction: row;
+    margin-top: 5px;
+}
+
+.selecionar p {
+    cursor: pointer;
+}
+
+.coracao {
+    height: 20px;
+    width: 20px;
+    background-size: cover;
+    background-position: center;
+    margin-right: 10px;
+}
+
+.comentario-content {
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+.comentario-content h4 {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+#direita {
+    width: 30%;
+}
+
+.postagem {
+    border-radius: 66px;
+    border: 8px solid #111;
+    background-image: url('imagens/close-up-artist-sketch.jpg');
+    box-shadow: 20px 20px 0px 0px #111, 0px -180px 50px 0px rgba(0, 0, 0, 0.70) inset;
+    height: 300px;
+    width: 300px;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+#footer1 {
+    margin-top: 1405px;
+}
+
+#footer2 {
+    margin-top: 2000px;
 }
 
 footer {
@@ -247,12 +430,10 @@ footer {
     position: absolute;
     left: 0;
     right: 0;
-    margin-top: 1405px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     color: white;
-
 }
 
 footer img {
